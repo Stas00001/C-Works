@@ -7,4 +7,4 @@
 
 
 **Открыть проект**
-[https://stas00001.github.io/С-Works/index.html]
+[https://stas00001.github.io/C-Works/index.html]
