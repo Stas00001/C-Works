@@ -1,0 +1,17 @@
+.section_size_footer{
+  max-width: calc(100% - 320px);
+  margin: 240px auto 60px auto;
+}
+@media screen and (max-width:960px) {
+  .section_size_footer {
+    max-width: calc(100% - 120px);
+    margin: 180px auto 60px auto;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .section_size_footer{
+    max-width: calc(100% - 40px);
+    margin: 180px auto 20px auto;
+  }
+}

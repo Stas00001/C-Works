@@ -1,0 +1,16 @@
+.card__text_size_small {
+  font-size: 15px;
+  line-height: 19px;
+  padding: 0;
+}
+@media screen and (max-width:960px) {
+  .card__text_size_small {
+    font-size: 2.1vw;
+  }
+}
+@media screen and (max-width:400px) {
+  .card__text_size_small {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,16 @@
+.card__item {
+  position: relative;
+  background: #1C1C1E;
+  padding: 40px;
+  border-radius: 16px;
+  transition: background .4s linear;
+}
+.card__item:hover {
+  background: #232327;
+}
+
+@media screen and (max-width:400px) {
+  .card__item {
+    padding: 20px
+  }
+}

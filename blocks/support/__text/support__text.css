@@ -1,0 +1,17 @@
+.suppot__text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #8E8E98;
+  margin: 0;
+  padding: 0;
+}
+ @media screen and (max-width:960px) {
+   .suppot__text{
+     font-size: 2.7vw;
+     line-height: 1.5;
+   }
+ }
+ @media screen and (max-width:400px) {
+
+ }

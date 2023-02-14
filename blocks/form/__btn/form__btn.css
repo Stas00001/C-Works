@@ -1,0 +1,26 @@
+.form__btn {
+  max-width: 225px;
+  width: 100%;
+  padding: 17px 13px;
+  font-weight: 400;
+  font-size: 14px;
+  background: #47474C;
+  color: #ffff;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:960px) {
+  .form__btn {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .form__btn{
+    max-width: 50px;
+    font-size: 2.8vw;
+    padding: 20px;
+  }
+}

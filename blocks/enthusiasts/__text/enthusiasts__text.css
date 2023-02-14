@@ -1,0 +1,23 @@
+.enthusiasts__text {
+  padding: 0 0 60px 0;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #8E8E98;
+  margin: 0;
+}
+
+@media screen and (max-width:960px) {
+  .enthusiasts__text {
+    font-size: 2.7vw;
+    line-height: 1.45;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .enthusiasts__text {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0 0 20px 0;
+  }
+}
