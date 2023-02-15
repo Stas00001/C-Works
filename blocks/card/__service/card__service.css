@@ -18,5 +18,6 @@
   .card__service{
     font-size: 18px;
   line-height: 18px;
+  padding: 0 0 10px 0;
   }
 }

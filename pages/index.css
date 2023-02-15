@@ -29,6 +29,7 @@
 @import url(../blocks/enthusiasts/__text/enthusiasts__text.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__item/card__item.css);
+@import url(../blocks/card/__item/card__item_warranty.css);
 @import url(../blocks/card/__overlay/card__overlay.css);
 @import url(../blocks/card/__service/card__service.css);
 @import url(../blocks/card/__text/card__text.css);

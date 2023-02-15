@@ -8,13 +8,14 @@
 }
 @media screen and (max-width:960px) {
   .card__text {
-    font-size: 4.5vw;
+    font-size: 4.41vw;
     line-height: 1.25;
   }
 }
 @media screen and (max-width:400px) {
   .card__text {
     font-size: 12px;
-  line-height: 18px;
+    line-height: 18px;
+    padding: 0 0 100px 0;
   }
 }

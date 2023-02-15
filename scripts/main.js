@@ -2,11 +2,19 @@ const mediaMobile = window.matchMedia('(max-width: 400px)');
 const btnFormText = document.querySelectorAll('.form__btn');
 const formFeedback = document.querySelectorAll('.form');
 const formInput = document.querySelectorAll('.form__input');
-if (mediaMobile.matches) {
-  btnFormText.forEach((btn, i) => {
-    btn.textContent = "✌️";
-  });
+windowText();
+window.onresize = windowText;
+function windowText() {
+    btnFormText.forEach((btn, i) => {
+      if (mediaMobile.matches) {
+        btn.textContent = "✌️";
+
+      }else {
+        btn.textContent = "Отремонтируйте камеру ✌️";
+      }
+    });
   }
+
   function handleFormSubmit(evt) {
     evt.preventDefault();
     formInput.forEach((item, i) => {

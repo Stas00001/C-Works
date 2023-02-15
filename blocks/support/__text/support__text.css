@@ -13,5 +13,8 @@
    }
  }
  @media screen and (max-width:400px) {
-
+   .suppot__text {
+     font-size: 12px;
+     line-height: 18px;     
+   }
  }
