@@ -1,0 +1,23 @@
+.card__service {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #8E8E98;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+@media screen and (max-width:960px) {
+  .card__service{
+    font-size: 2.8vw;
+    line-height: 0.9;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .card__service{
+    font-size: 18px;
+  line-height: 18px;
+  padding: 0 0 10px 0;
+  }
+}

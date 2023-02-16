@@ -1,0 +1,25 @@
+.form__input{
+  font-family: inherit;
+  color: #ffff;
+  background: #8E8E9833;
+  max-width: 322px;
+  width: 100%;
+  border-radius: 8px 0px 0px 8px;
+  outline: none;
+  border: none;
+  padding: 16px 13px;
+}
+
+.form__input:hover{
+  background: #8E8E984D;
+}
+
+.form__input:focus{
+  background: #8E8E984D;
+}
+
+@media screen and (max-width:960px) {
+  .form__input{
+    max-width: 100%;
+  }
+}

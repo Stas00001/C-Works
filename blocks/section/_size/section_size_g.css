@@ -1,0 +1,19 @@
+.section_size_g{
+  max-width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+@media screen and (max-width:960px) {
+  .section_size_g{
+    max-width: calc(100% - 120px);
+    padding: 0 0 60px 0;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .section_size_g {
+    max-width: calc(100% - 40px);
+    padding: 10px 0 20px 0;
+  }
+}
